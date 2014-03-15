@@ -2,19 +2,26 @@ Meta tags with added social open graph tags for FB, Twitter and Google+
 
 **What it does:**
 
-* Something
+* Adds meta tag options to blog editor fieldset
+* Allows social open graph data to be used
 
   
 ---
 
 ## Basic Installation
-hmmmm
+1. Merge _config folder in statamic
+2. Add 'partials' to your theme folder
 
 ---
 
+## Testing
+* Twitter - https://dev.twitter.com/docs/cards/validation/validator
+* Facebook - https://developers.facebook.com/tools/debug/og/object
+* Google - http://www.google.com/webmasters/tools/richsnippets
+
 
 ## Version History
-0.1 - First release
+0.1 - Basic release
 
 
 ## Author
