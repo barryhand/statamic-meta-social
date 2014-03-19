@@ -4,26 +4,23 @@
 {{ if meta_desc|not_empty }}
 	<meta name="description" content="{{ meta_desc|striptags }}">
 {{ endif }}
-
 	<!-- Schema.org markup for Google+ -->
 	<meta itemprop="name" content="{{ if meta_title|not_empty }}{{ meta_title }}{{ else }}{{ title }}{{ endif }}{{ if get:page > 0 }} Page {{ get:page }}{{ endif }}">
 	<meta itemprop="description" content="{{ meta_desc|striptags }}">
 	<meta itemprop="image" content="{{_site_url}}{{ main_img }}">
-	
+
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@barryhand">
+	<meta name="twitter:site" content="@XXX">
 	<meta name="twitter:title" content="{{ meta_title }}">
 	<meta name="twitter:description" content="{{ meta_desc|striptags }}">
-	<meta name="twitter:creator" content="@barryhand">
+	<meta name="twitter:creator" content="@XXX">
 	<meta name="twitter:domain" content="{{ _site_url }}">
-	
-	<!-- Twitter summary card with large image must be at least 280x150px -->
 	<meta name="twitter:image:src" content="{{_site_url}}{{ main_img }}">
-	
+
 	<!-- Google Authorship and Publisher Markup -->
-	<link rel="author" href="https://plus.google.com/111842692635164048684/posts"/>
-	<link rel="publisher" href="https://plus.google.com/111842692635164048684"/>
+	<link rel="author" href="https://plus.google.com/XXXXXXXXXXXXXXXXXXXXX/posts"/>
+	<link rel="publisher" href="https://plus.google.com/XXXXXXXXXXXXXXXXXXXXX"/>
 
 	<!-- Open Graph data -->
 	<meta property="og:title" content="{{ meta_title }}" />
@@ -34,16 +31,8 @@
 	<meta property="og:site_name" content="{{ _site_name }}" />
 	<meta property="article:published_time" content='{{ date format="c"}}' />
 	<meta property="article:modified_time" content='{{ last_modified format="c"}}' />
-	<meta property="fb:admins" content="682602122" />
-	{{ endif }}
-
-
-	{{#
-	====================================
-	  NOTES
-	====================================
-	<meta property="article:section" content="Article Section" />
-	<meta property="article:tag" content="Article Tag" />
-	https://www.facebook.com/help/336893449723054
-
-	#}}
+	<meta property="article:section" content="{{ categories_list }}" />
+	<meta property="article:tag" content="{{ tags_list }}" />
+	<!-- Facebook Insights -->
+	<meta property="fb:admins" content="XXXXXXXXX" />
+{{ endif }}
