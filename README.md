@@ -17,7 +17,7 @@ Statamic fieldtype and partial Meta tags with added social data for FB, Twitter 
 ## Basic Installation
 1. Merge _config folder in statamic
 2. Add 'partials' to your theme folder
-3. Include {{ theme:partial src="_meta-social" }} into theme <head>
+3. Include {{ theme:partial src="_meta-social" }} into theme head tag
 
 ---
 
@@ -36,5 +36,6 @@ Utilises some of the meta code found in [GarethRedfern's](https://github.com/gar
 
 ## Author
 Created by Barry Hand. Have a question or suggestion? Feel free to reach out.
+
 Twitter: [@barryhand](http://twitter.com/barryhand/)
 Website: [barryhand.ie](http://www.barryhand.ie)
