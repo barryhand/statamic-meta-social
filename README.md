@@ -2,6 +2,8 @@ Statamic fieldtype and partial Meta tags with added social data for FB, Twitter 
 
 ![Twitter Example](http://www.barryhand.ie/assets/img/blog/git.png)
 
+You can see it in [action](http://barryhand.ie/blog/smart-dns-unlocator) - view the source code.
+
 **What it does:**
 
 * Adds two fieldtypes - meta and posts
